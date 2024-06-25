@@ -1,0 +1,479 @@
+/* =====================================navbar================================= */
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 7px;
+}
+
+.navbar ul {
+    float: right;
+    margin-top: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Alegreya", serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.navbar img {
+    width: 15%;
+    margin-top: 20px;
+    float: left;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* =====================================Home================================= */
+
+body {
+    margin: 0px;
+}
+
+.home {
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+.home_contant {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.home_contant p {
+    font-size: 22px;
+    color: #ffffff;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+.home_contant h1 {
+    font-size: 76px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 91.2px;
+    font-weight: 400;
+    margin-top: 13px;
+
+}
+
+.home_contant .button1 {
+    padding: 15px 20px;
+    background-color: #8e7754;
+    border: solid #8e7754 2px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 1px;
+    font-size: 16px;
+}
+
+.home_contant .button2 {
+    padding: 15px 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: solid white 2px;
+    background-color: transparent;
+    margin-left: 1px;
+    font-size: 16px;
+
+}
+
+.shape {
+    width: 30px;
+    height: 50px;
+    border: solid white 2px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+/* =====================================about================================= */
+
+.about {
+    margin-top: 100px;
+    overflow: auto;
+    margin-bottom: 60px;
+}
+
+.about_img {
+    background-color: aqua;
+    width: 45%;
+}
+
+.about_img img {
+    width: 100%;
+    float: left;
+}
+
+.about_contant {
+    width: 50%;
+    float: right;
+}
+
+.about_contant h2 {
+    font-size: 32px;
+    font-family: "Alegreya", serif;
+    color: #303030;
+    line-height: 44.16px;
+    font-weight: 400;
+}
+
+.about_contant p {
+    font-size: 17px;
+    font-family: "Alegreya Sans", sans-serif;
+    color: #686868;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+
+.about_contantimg img {
+    width: 35px;
+    border-radius: 50%;
+    border: solid #e2d4bf 1px;
+    margin-right: 12px;
+    margin: 8px 5px -12px 5px;
+}
+
+.about_contantimg span {
+    font-size: 17px;
+    font-family: "Alegreya Sans", sans-serif;
+    color: #686868;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+
+/* =====================================Our Offer================================= */
+
+.Our_Offer {
+    background-color: #f8f8f8;
+    padding: 60px 0px;
+}
+
+.Our_Offercontant {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.Our_Offercontant h2 {
+    font-size: 32px;
+    line-height: 44.16px;
+    color: #303030;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+}
+
+.Our_Offercontant p {
+    font-size: 17px;
+    line-height: 31.62px;
+    color: #686868;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+.Our_Offerimg {
+    width: 50%;
+    float: right;
+}
+
+.Our_Offerimg img {
+    width: 100%;
+}
+
+/* =====================================Gallery================================= */
+
+.our_Baking {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.hidden {
+    text-align: center;
+}
+
+.Baking {
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Baking img {
+    width: 100%;
+}
+
+.hidden h3 {
+    font-size: 30px;
+    line-height: 41.4px;
+    color: #303030;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+}
+
+.hidden p {
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
+
+.our_Baking p {
+    font-size: 17px;
+    line-height: 31.62px;
+    color: #888888;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+/* =====================================Blog================================= */
+
+.Blog {
+    background-color: #f8f8f8;
+    padding: 80px 0px;
+}
+
+.blog_contant {
+    float: left;
+    width: 45%;
+}
+
+.iframe {
+    float: right;
+    width: 50%;
+}
+
+.blog_contant h2 {
+    font-size: 32px;
+    line-height: 44.16px;
+    color: #303030;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+}
+
+.blog_contant p,
+span,
+ul {
+    font-size: 17px;
+    color: #686868;
+    line-height: 31.62px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+}
+
+.blog_contant ul {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -45px;
+}
+
+.blog_contant ul li img {
+    width: 35px;
+    background-color: #8e7754;
+    border-radius: 50%;
+    margin: 8px 5px -12px 5px;
+    margin-right: 15px;
+}
+
+.blog_contant ul li {
+    padding: 10px;
+}
+
+/* =====================================contact================================= */
+
+.contact {
+    background-color: #403d38;
+    overflow: auto;
+    padding: 40px 0px;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.footer-one {
+    width: 25%;
+    float: left;
+}
+
+.footer-two {
+    width: 25%;
+    float: left;
+
+}
+
+.footer-three {
+    width: 25%;
+    float: left;
+
+}
+
+.footer-four {
+    width: 25%;
+    float: left;
+}
+
+.footer-two img {
+    width: 6%;
+
+}
+
+.footer-three img {
+    width: 6%;
+}
+
+.footer-four img {
+    width: 35px;
+    margin: 8px 5px -12px 5px;
+}
+
+.contact .h4_1{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Alegreya", serif;
+    line-height: 24.84px;
+    font-weight: 400;
+    margin-left: 0px;
+}
+
+.contact h4 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Alegreya", serif;
+    line-height: 24.84px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.footer-one p{
+    font-size: 16px;
+    color: #969696;
+    line-height: 29.76px;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+.contact li{
+font-size: 16px;
+font-family: "Alegreya Sans", sans-serif;
+color: #969696;
+line-height: 31.62px;
+}
+
+/* =====================================footer================================= */
+
+.bg_footer {
+    background-color: #353330;
+    border: 1px transparent solid;
+}
+
+.footer {
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer ul li img {
+    width: 40px;
+    background-color: #403d38;
+    border-radius: 50%;
+}
+
+.footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 4px;
+}
+
+.footer p {
+    color: #686868;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+
+@media screen and (max-width:992px) and (min-width:768px){
+    
+    .about_contant {
+        width: 50%;
+        
+    }
+
+    .about_img {
+        width: 50%;
+    }
+
+    .Our_Offercontant{
+        width: 50%;
+    }
+
+    .Our_Offerimg{
+        width: 25%;
+    }
+
+    .Baking{
+        width: 25%;
+    }
+ 
+}
+
+
+@media screen and (max-width:768px) and (min-width:572px){
+    
+    .about_contant {
+        width: 100%;
+        
+    }
+
+    .about_img {
+        width: 100%;
+    }
+
+    .Our_Offercontant{
+        width: 100%;
+    }
+
+    .Our_Offerimg{
+        width: 100%;
+    }
+
+    .Baking{
+        width: 50%;
+    }
+ 
+}
+
+@media screen and (max-width:572px){
+    
+    .about_contant {
+        width: 100%;
+        
+    }
+
+    .about_img {
+        width: 100%;
+    }
+
+    .Our_Offercontant{
+        width: 100%;
+    }
+
+    .Our_Offerimg{
+        width: 100%;
+    }
+
+    .Baking{
+        width: 100%;
+    }
+
+}
